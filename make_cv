@@ -1,0 +1,2 @@
+pandoc builds/cv.md builds/education.md builds/experience-profession.md builds/experience-hobby.md builds/skills.md builds/interests.md builds/references.md -H header.tex -o bentley-martin-cv.pdf
+pandoc cover.md -o bentley-martin-cover-letter.pdf --template minletter 
